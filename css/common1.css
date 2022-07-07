@@ -18,26 +18,24 @@ li {
 }
 
 header {
-  height: 4rem;
+  height: 100vh;
   width: 100%;
+}
+
+.bg_black {
+  background-color: black;
+  height: 100vh;
+  position: relative;
 }
 
 .header_wrapper {
   height: 4rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header_wrapper::after {
-  content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .header_wrapper nav ul {
@@ -56,18 +54,21 @@ header {
   display: table-cell;
   vertical-align: middle;
   color: white;
-  z-index: 2;
 }
 
 .header_title span {
   font-size: 2rem;
 }
 
+nav ul li a {
+  display: block;
+  line-height: 4rem;
+}
 
-
-
-
-
+nav ul li a:hover {
+  color: #ffffff;
+  opacity: 0.6;
+}
 
 
 
