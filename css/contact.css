@@ -1,1 +1,84 @@
 @charset "UTF-8";
+
+
+
+form {
+  height: 70vh;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+label {
+  display: inline;
+  width: 12%;
+}
+
+input,textarea {
+  background-color: darkgrey;
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+  padding: 1%;
+}
+
+textarea {
+  line-height: 5rem;
+}
+
+form div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn1 {
+  width: 10%;
+  padding-bottom: 5%;
+}
+
+.btn1 a {
+  color: black;
+  background-color: rgb(125, 187, 245);
+  padding: 10% 6%;
+  border-radius: 50px;
+  display: block;
+  text-align: center;
+}
+
+.btn1 a:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

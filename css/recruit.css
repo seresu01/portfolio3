@@ -1,1 +1,173 @@
 @charset "UTF-8";
+
+header h2 {
+  position: absolute;
+  z-index: 1;
+  top: 43%;
+  left: 47%;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.message_wrapper {
+  height: 100vh;
+}
+
+.message_wrapper h2 {
+  padding: 10% 0 8% 0;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.message {
+  background: linear-gradient(to top, rgb(231, 240, 253), rgb(179, 212, 255));
+  width: 80%;
+  margin: 0 auto;
+}
+
+.message h3 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: solid rgb(0, 0, 0) 1px;
+}
+
+.message p {
+  padding: 3% 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.business_wrapper {
+  height: 100vh;
+}
+
+.business_wrapper h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  background-color: rgb(192, 192, 192);
+  margin-top: 5%;
+}
+
+.business_aitems {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.aitem {
+  background-color: rgb(172, 213, 255);
+  width: 20%;
+  height: 50%;
+  border-radius: 90%;
+  margin: auto 2%;
+  text-align: center;
+  display: table;
+}
+
+.aitem p {
+  font-size: 1.5rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.business_txt {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.welfare_wrapper {
+  height: 80vh;
+}
+
+.welfare_wrapper h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  background-color: rgb(192, 192, 192);
+  margin-top: 2%;
+}
+
+.welfare_aitems {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.aitem2 {
+  background-color: rgb(171, 237, 241);
+  width: 20%;
+  height: 30%;
+  margin: auto 2%;
+  text-align: center;
+  display: table;
+}
+
+.aitem2 p {
+  font-size: 1.5rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.welfare_txt {
+  width: 46%;
+  margin: 0 auto;
+}
+
+.essentials_wrapper {
+  height: 120vh;
+}
+
+.essentials_wrapper h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  background-color: rgb(192, 192, 192);
+  margin-bottom: 5%;
+}
+
+table {
+  height: 80%;
+  width: 60%;
+  margin: 0 auto;
+  border: none;
+  border-top: solid black 1px;
+  border-left: solid black 1px;
+  padding-top: 5%;
+}
+
+table tr {
+  border: none;
+  border-bottom: solid black 1px;
+}
+
+th {
+  background-color: rgb(223, 239, 255);
+}
+
+td {
+  padding-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

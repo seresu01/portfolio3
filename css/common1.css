@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   letter-spacing: 1px;
   word-break: break-all;
@@ -20,12 +20,28 @@ li {
 header {
   height: 100vh;
   width: 100%;
+  position: relative;
+}
+
+header h2 {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 42%;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: normal;
 }
 
 .bg_black {
   background-color: black;
   height: 100vh;
   position: relative;
+}
+
+.bg_black img {
+  opacity: 0.6;
+  object-fit: cover;
 }
 
 .header_wrapper {
@@ -70,20 +86,89 @@ nav ul li a:hover {
   opacity: 0.6;
 }
 
+.btn1 {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.btn1 a {
+  color: black;
+  background-color: rgb(191, 220, 247);
+  padding: 10% 6%;
+  border-radius: 50px;
+  display: block;
+}
+
+.btn2 {
+  width: 11%;
+  margin: 0 auto;
+}
 
 
+.btn2 a {
+  color: black;
+  background-color: rgb(191, 220, 247);
+  padding: 10% 6%;
+  border-radius: 50px;
+  display: block;
+  text-align: center;
+}
 
+footer {
+  height: 40vh;
+  background-color: rgb(46, 46, 46);
+  color: white;
+}
 
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
+.footer_logo {
+  font-size: 1.3rem;
+  margin-left: 10%;
+  padding-top: 6%;
+  vertical-align: middle;
+}
 
+.footer_logo h1 span {
+  font-size: 2rem;
+}
 
+.footer_nav {
+  width: 20%;
+}
 
+.list_left,.list_right {
+  padding: 15% 10% 8% 10%;
+}
 
+table {
+  background-color: white;
+  margin-top: 5%;
+  padding: 5%;
+  height: 40%;
+  width: 60%;
+  border: solid black 1px;
+}
 
+table tr {
+  border: solid black 1px;
+}
 
+table th,td {
+  vertical-align: middle;
+}
 
+.footer_ul {
+  display: flex;
+}
 
-
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+}
 
 
 
