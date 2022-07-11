@@ -15,7 +15,6 @@ label {
 }
 
 input,textarea {
-  background-color: darkgrey;
   box-sizing: border-box;
   border: solid rgb(5, 5, 5) 1px;
   width: 60%;
@@ -36,6 +35,7 @@ form div {
 .btn1 {
   width: 10%;
   padding-bottom: 5%;
+  margin-top: 3%;
 }
 
 .btn1 a {

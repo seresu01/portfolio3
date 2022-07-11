@@ -84,6 +84,7 @@
   width: 30%;
   margin-left: 5%;
   text-align: center;
+  position: relative;
 }
 
 .service_bg {
@@ -102,10 +103,34 @@
   text-align: left;
 }
 
+.service_btn {
+  position: absolute;
+  top: 86%;
+  left: 25%;
+  width: 50%;
+  color: black;
+  background-color: rgb(191, 220, 247);
+  border-radius: 50px;
+  display: block;
+}
+
+.service_btn a {
+  color: black;
+  background-color: rgb(191, 220, 247);
+  padding: 7% 3%;
+  border-radius: 50px;
+  display: block;
+}
+
+.service_btn:hover {
+  opacity: 0.6;
+}
+
 .works_wrapper {
   height: 100vh;
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 .main_h2_2 {
@@ -144,6 +169,31 @@
   padding: 3% 0 3% 0;
   margin: 0 auto;
   text-align: left;
+}
+
+.works_btn {
+  margin-top: 1%;
+  position: absolute;
+  width: 17%;
+  text-align: center;
+  top: 90%;
+  left: 42%;
+  color: black;
+  background-color: rgb(191, 220, 247);
+  border-radius: 50px;
+  display: block;
+}
+
+.works_btn:hover {
+  opacity: 0.6;
+}
+
+.works_btn a {
+  color: black;
+  background-color: rgb(191, 220, 247);
+  padding: 5% 3%;
+  border-radius: 50px;
+  display: block;
 }
 
 .recruit_wrapper {
