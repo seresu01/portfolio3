@@ -17,14 +17,15 @@ label {
 input,textarea {
   background-color: darkgrey;
   box-sizing: border-box;
-  border: solid #ddd 1px;
+  border: solid rgb(5, 5, 5) 1px;
   width: 60%;
   margin-bottom: 2.5%;
   padding: 1%;
 }
 
 textarea {
-  line-height: 5rem;
+  height: 13rem;
+  line-height: 1.3rem;
 }
 
 form div {

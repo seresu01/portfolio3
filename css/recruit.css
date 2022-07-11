@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-header h2 {
-  position: absolute;
-  z-index: 1;
-  top: 43%;
-  left: 47%;
-  color: #ffffff;
-  font-size: 3rem;
-  font-weight: normal;
-}
 
 .message_wrapper {
   height: 100vh;
@@ -54,6 +45,7 @@ header h2 {
   text-align: center;
   background-color: rgb(192, 192, 192);
   margin-top: 5%;
+  padding: 1%;
 }
 
 .business_aitems {
@@ -95,6 +87,7 @@ header h2 {
   text-align: center;
   background-color: rgb(192, 192, 192);
   margin-top: 2%;
+  padding: 1%;
 }
 
 .welfare_aitems {
@@ -126,7 +119,7 @@ header h2 {
 }
 
 .essentials_wrapper {
-  height: 120vh;
+  height: 130vh;
 }
 
 .essentials_wrapper h2 {
@@ -135,6 +128,7 @@ header h2 {
   text-align: center;
   background-color: rgb(192, 192, 192);
   margin-bottom: 5%;
+  padding: 1%;
 }
 
 table {
@@ -142,8 +136,7 @@ table {
   width: 60%;
   margin: 0 auto;
   border: none;
-  border-top: solid black 1px;
-  border-left: solid black 1px;
+  border: solid black 1px;
   padding-top: 5%;
 }
 
