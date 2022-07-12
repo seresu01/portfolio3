@@ -5,9 +5,9 @@ header {
 }
 
 .top_txt {
-  padding-top: 7%;
-  width: 33%;
-  height: 10vh;
+  padding-top: 2%;
+  width: 100%;
+  padding-left: 10%;
   margin: 0 auto;
 }
 
@@ -110,7 +110,7 @@ header {
 }
 
 .overview_wrapper {
-  height: 150vh;
+  height: 110vh;
   background-color: rgb(192, 192, 192);
 }
 
@@ -139,7 +139,7 @@ header {
 }
 .overview_bg {
   background-color: rgb(255, 255, 255);
-  height: 40%;
+  height: 43%;
   width: 30%;
   position: absolute;
   top: 48%;
@@ -183,7 +183,7 @@ th,td {
 }
 
 .access_wrapper {
-  height: 100vh;
+  height: 80vh;
   background-color: rgb(236, 248, 255);
   text-align: center;
 }
